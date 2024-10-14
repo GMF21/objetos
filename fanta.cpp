@@ -65,7 +65,7 @@ private:
 
     void abrir()
     {
-        if (!state)
+        if (!state) // verifica se a lata esta fechada
         {
             state = true;
             cout << "Abriste a lata!" << endl;
